@@ -26,6 +26,9 @@ func Example_fileblob() {
 
 	fsys := blobfs.New(bucket)
 	f, err := fsys.Open("foo.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
 	b, err := io.ReadAll(f)
 	if err != nil {
 		if err != io.EOF {

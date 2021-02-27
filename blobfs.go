@@ -1,7 +1,18 @@
-// Package blobfs provides access to files stored in a blob storage.
+// Package blobfs provides access with fs.FS interface to files stored in a blob storage.
 //
 // FS implements fs.FS, so it can be used with any packages that understands file system interfaces.
 // e.g.) net/http, text/template, html/template
+//
+// It uses gocloud.dev/blob for a blob backend, so it can read the following blob storages.
+//
+// - Google Cloud Storage
+// - Amazon S3
+// - Azure Blob Storage
+// - Local filesystem
+// - In memory filesystem
+//
+// For more details about gocloud.dev/blob, please refer to the following page.
+// ref.) https://gocloud.dev/howto/blob/
 package blobfs
 
 import (

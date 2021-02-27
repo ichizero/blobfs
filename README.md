@@ -1,6 +1,6 @@
 # blobfs
 
-[![test](https://github.com/ichizero/blobfs/workflows/ci/badge.svg?branch=main)](https://github.com/ichizero/blobfs/actions?query=workflow%3Atest)
+[![test](https://github.com/ichizero/blobfs/actions/workflows/test.yml/badge.svg)](https://github.com/ichizero/blobfs/actions/workflows/test.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/ichizero/blobfs.svg)](https://pkg.go.dev/github.com/ichizero/blobfs)
 [![Codecov](https://codecov.io/gh/ichizero/blobfs/branch/main/graph/badge.svg)](https://codecov.io/gh/ichizero/blobfs)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ichizero/blobfs)](https://goreportcard.com/report/github.com/ichizero/blobfs)

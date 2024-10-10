@@ -4,7 +4,7 @@ go 1.21.0
 
 toolchain go1.23.2
 
-require gocloud.dev v0.39.0
+require gocloud.dev v0.40.0
 
 require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect

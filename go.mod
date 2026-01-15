@@ -2,7 +2,7 @@ module github.com/ichizero/blobfs
 
 go 1.24.0
 
-toolchain go1.25.5
+toolchain go1.25.6
 
 require gocloud.dev v0.44.0
 
